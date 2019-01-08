@@ -1,0 +1,27 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài tập 3: </title>
+</head>
+<body>
+<p>Chương trình tính diện tích hình tròn.</p>
+
+<button onclick="myFunction()">Nhập bán kính</button>
+
+<p id="demo"></p>
+
+<script>
+  function myFunction() {
+    var R =parseInt(prompt("Bán kính: ",0));
+    var S = 3.14 * (R * R);
+
+    if (R != null){
+      alert("Diện tích = " + S );
+    }
+    else alert("Vui lòng nhập bán kính");
+  }
+</script>
+</body>
+</html>

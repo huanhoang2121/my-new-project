@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 1: </title>
+</head>
+<body>
+<p>Chương trình tính điểm trung bình cho sinh viên.</p>
+
+<button onclick="myFunction()">Nhập điểm</button>
+
+<p id="demo"></p>
+
+<script>
+  function myFunction() {
+    var vl =parseInt(prompt("Vui lòng nhập điểm Vật lý",0));
+    var hh = parseInt(prompt("Vui lòng nhập điểm Hóa học",0));
+    var sh = parseInt(prompt("Vui lòng nhập điểm Sinh học",0));
+    var dtb = (vl + hh + sh)/3;
+
+    if (vl != null && hh != null && sh != null){
+        alert("Điểm trung bình = " + dtb );
+    }
+    else alert("Vui lòng nhập đầy đủ điểm cho sinh viên");
+  }
+</script>
+</body>
+</html>
