@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài tập 3: </title>
+</head>
+<body>
+<H2 align="center">Ứng dụng chuyển đổi tiền tệ</H2>
+
+
+<form action="" name="form1" method="post">
+  <table align="center" width="70%">
+    <tr>
+      <th>Amount </th>
+      <th>From Currency</th>
+      <th>To Currency</th>
+      <th></th>
+    </tr>
+    <tr>
+      <td align="center">
+        <input type="text" id="amount" name="amount">
+      </td>
+      <td align="center">
+        <select id="fromid" name="dropdown">
+          <option value="23000">VND</option>
+          <option value="1">USD</option>
+        </select>
+      </td>
+      <td align="center">
+        <select id="toid" name="dropdown">
+          <option value="1">USD</option>
+          <option value="23000">VND</option>
+        </select>
+      </td>
+      <td align="center">
+        <input type="submit" value="Convert" onclick="myFunction()">
+      </td>
+    </tr>
+  </table>
+</form>
+
+<script>
+  function myFunction() {
+    var amount = document.getElementById("amount").value;
+    var thuong = document.getElementById("toid").value/document.getElementById("fromid").value;
+    var resual = amount * thuong ;
+    alert("Giá trị sau khi chuyển: " + resual);
+  }
+
+</script>
+</body>
+</html>
