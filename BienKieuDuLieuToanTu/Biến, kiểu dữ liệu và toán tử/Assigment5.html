@@ -17,9 +17,10 @@
     var hh = parseInt(prompt("Vui lòng nhập điểm Hóa học",0));
     var sh = parseInt(prompt("Vui lòng nhập điểm Sinh học",0));
     var dtb = (vl + hh + sh)/3;
+    var tong = vl + hh + sh;
 
     if (vl != null && hh != null && sh != null){
-        alert("Điểm trung bình = " + dtb );
+        alert("Điểm trung bình = " + dtb + "Tổng: "+ tong );
     }
     else alert("Vui lòng nhập đầy đủ điểm cho sinh viên");
   }
