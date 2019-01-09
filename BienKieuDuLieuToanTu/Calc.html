@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài tập </title>
+</head>
+<body>
+<H2 align="center">Ứng dụng máy tính</H2>
+
+
+<table align="center">
+  <tr>
+    <td>
+      <input type="number" id="a">
+      <input type="number" id="b">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <input type="submit" value="Addition(+)" onclick="Addition()">
+      <input type="submit" value="Subtraction(-)" onclick="Subtraction()">
+      <input type="submit" value="Multiplication(X)" onclick="Multiplication()">
+      <input type="submit" value="Division(/)" onclick="Division()">
+    </td>
+  </tr>
+</table>
+ 
+<h3 align="center">Kết quả: <a id="resualid"></a></h3>
+
+
+<script>
+  function Addition() {
+    var a = parseInt(document.getElementById("a").value);
+    var b = parseInt(document.getElementById("b").value);
+    var resual = a + b ;
+    document.getElementById("resualid").innerText = resual;
+  }
+  function Subtraction() {
+    var a = parseInt(document.getElementById("a").value);
+    var b = parseInt(document.getElementById("b").value);
+    var resual = a - b ;
+    document.getElementById("resualid").innerText = resual;
+  }
+  function Multiplication() {
+    var a = parseInt(document.getElementById("a").value);
+    var b = parseInt(document.getElementById("b").value);
+    var resual = a * b ;
+    document.getElementById("resualid").innerText = resual;
+  }
+  function Division() {
+    var a = parseInt(document.getElementById("a").value);
+    var b = parseInt(document.getElementById("b").value);
+    var resual = a / b ;
+    
+    if(b == 0){
+      resual = "Lỗi, b phải khác 0";
+    document.getElementById("resualid").innerText = resual;
+    }
+    else
+    document.getElementById("resualid").innerText = resual;
+  }
+
+</script>
+</body>
+</html>
