@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mur</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="JavaScript" href="script.js">
+</head>
+<body onLoad="pickimg2">
+    <div class="fenetre">
+      <a href="#" onClick="pickimg2();return false;">
+        <img src="image/monkey_part1x1.jpg" name="randimg" border=0>
+      </a>
+    </div>
+    <script type="text/javascript">
+        var myImages1 = new Array();
+        myImages1.push("image/monkey_part2x1.jpg");
+        myImages1.push("image/monkey_part3x1.jpg");
+        myImages1.push("image/monkey_part4x1.jpg");
+        myImages1.push("image/monkey_part5x1.jpg");
+
+        function getRandomInt(min, max) {
+          return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function pickimg2() {
+          document.randimg.src = myImages1[getRandomInt(0, myImages1.length - 1)];
+        }
+    </script>
+</body>
+</html>
