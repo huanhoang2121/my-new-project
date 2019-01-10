@@ -4,13 +4,18 @@
 	<title></title>
 </head>
 <body>
-	<input type="number" id="month" value="1"/>
+
+	<input type="number" id="month" value="10"/>
+
     <input type="button" value="Tính số ngày" onclick="tinhngay()" />
+
     <br><a id="show"></a>
 
 <script type="text/javascript">
 	function tinhngay(){
-		var month = parseInt(document.getElementById("month").value);
+
+		var month = parseInt(document.getElementById("month").value);//lấy value từ id = month
+
 		switch (month) {
 	        case 2:
     			document.getElementById("show").innerText = "Tháng "+month+" có 28 hoặc 29 ngày!";
@@ -28,7 +33,7 @@
 	        case 6:
 	        case 9:
 	        case 11:
-	        	document.getElementById("show").innerText ="Tháng "+month+" có 31 ngày!";
+	        	document.getElementById("show").innerText ="Tháng "+month+" có 30 ngày!";
 	            break;
 	        default:
 	        	document.getElementById("show").innerText ="Không có tháng "+month+"!";
