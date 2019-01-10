@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var year = parseInt(prompt("Nhập vào 1 năm: ", 2019));
+		var isLeapYear = false;
+
+		if(year % 4 == 0){
+		    if(year % 100 == 0){
+		        if(year % 400 == 0){
+		            isLeapYear = true;
+		        }
+		    } else {
+		        isLeapYear = true;
+		    }
+		}
+		if(isLeapYear){
+		    alert(year + " là một năm nhuận");
+		} else {
+		    alert(year + " không phải là năm nhuận");
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var userName = prompt("Tên đăng nhập:", '');
+		if (userName == 'huanhoang') {    
+			var pass = prompt('Mật khẩu:', '');
+			if (pass == 'huan1234') {
+			    alert( 'Welcome !'+ userName);
+			} else if (pass == null) {
+			    alert( 'Thoát!' );
+			} else {
+			   	alert( 'Sai mật khẩu!' );
+			    }
+
+		} else if (userName == null) {
+		  alert( 'Thoát!' );
+		} else {
+		  alert( "Không tìm thấy tên đăng nhập này!" );
+		}
+	</script>
+</body>
+</html>

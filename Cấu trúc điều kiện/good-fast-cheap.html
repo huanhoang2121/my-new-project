@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="">
+	  <input type="radio"  onclick="checked();" id="good" > GOOD<br>
+	  <input type="radio" onclick="checked();" id="cheap"> CHEAP<br>
+	  <input type="radio" onclick="checked();" id="fast"> FAST
+	</form>
+<button onclick="checked()">Try it</button>
+	
+	<script type="text/javascript">
+		function checked(){
+			if(document.getElementById("good").checked){
+				if(document.getElementById("cheap").checked){
+					if(document.getElementById("fast").checked){
+						document.getElementById("cheap").checked = false;
+					}
+				}else{
+					document.getElementById("fast").checked = true;
+				}
+			}else{
+				document.getElementById("fast").checked = true;
+				document.getElementById("cheap").checked = true;
+			}
+		}
+
+	</script>
+		
+</body>
+</html>
