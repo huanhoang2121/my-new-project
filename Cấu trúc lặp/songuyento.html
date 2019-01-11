@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <script>
+        var numbers = 20;
+        var count = 0;
+        var N = parseInt(prompt("Nhập N: ", 0));
+        var i,j;
+        var s = 0;
+        document.write("20 số đầu tiên là: ");      
+        for (i = 1; i <= N; i++) {
+
+            for (j = 0; j <= i; j++){                
+                if( i%j == 0 ){
+                    s += 1;
+                }
+            }if (s == 2) {
+                count += 1;
+                if (count <= numbers) {
+                    document.write(i+" ");                    
+                }
+            }
+            s = 0;
+        }
+        
+    </script>
+</body>
+</html>
