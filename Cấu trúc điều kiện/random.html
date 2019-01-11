@@ -43,26 +43,26 @@
         myImages5.push("image/monkey_part5x1.jpg");
         myImages5.push("image/panda_swap_part5x1.jpg");
 
-        function getRandomInt(min, max) {
-          return Math.floor(Math.random() * (max - min + 1)) + min;
+        function getRandomInt() {
+          return Math.floor(Math.random() * 3);
         }
 
         function picking(a) {
             switch(a){
                 case 1:
-                document.randimg1.src = myImages1[getRandomInt(0, 2)];
+                document.randimg1.src = myImages1[getRandomInt()];
                 break;
                 case 2:
-                document.randimg2.src = myImages2[getRandomInt(0, 2)];
+                document.randimg2.src = myImages2[getRandomInt()];
                 break;
                 case 3:
-                document.randimg3.src = myImages3[getRandomInt(0, 2)];
+                document.randimg3.src = myImages3[getRandomInt()];
                 break;
                 case 4:
-                document.randimg4.src = myImages4[getRandomInt(0, 2)];
+                document.randimg4.src = myImages4[getRandomInt()];
                 break;
                 case 5:
-                document.randimg5.src = myImages5[getRandomInt(0, 2)];
+                document.randimg5.src = myImages5[getRandomInt()];
             }
         }
     </script>
