@@ -1,21 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+    <title></title>
 </head>
-<body>
-<div align="center">
-	<img id="img1" src="image/monkey_part1x1.jpg" onclick="changeImage()">
-	<img id="img2" src="image/monkey_part2x1.jpg">
-	<img id="img3" src="image/monkey_part3x1.jpg">
-	<img id="img4" src="image/monkey_part4x1.jpg">
-	<img id="img5" src="image/monkey_part5x1.jpg">
-</div>
-<script type="text/javascript">
-	function changeImage(){
-		
-	}
-</script>
+<body onload="picking()">
+    <div class="fenetre" align="center">
+      <a href="#" onclick="picking(1);return false;">
+        <img width="800px" src="image/funny-cat1_part1x1.jpg" height="160px"  name="randimg1" border=0>
+      </a><br>
+      <a href="#" onclick="picking(2);return false;">
+        <img width="800px" src="image/monkey_part2x1.jpg" height="160px"  name="randimg2" border=0>
+      </a><br>
+      <a href="#" onclick="picking(3);return false;">
+        <img width="800px" src="image/panda_swap_part3x1.jpg" height="160px"  name="randimg3" border=0>
+      </a><br>
+      <a href="#" onclick="picking(4);return false;">
+        <img width="800px" src="image/panda_swap_part4x1.jpg" height="160px" name="randimg4" border=0>
+      </a><br>
+      <a href="#" onclick="picking(5);return false;">
+        <img width="800px" src="image/monkey_part5x1.jpg" height="160px"  name="randimg5" border=0>
+      </a><br>
+    </div>
+    <script type="text/javascript">
+        var myImages1 = new Array();
+        myImages1.push("image/funny-cat1_part1x1.jpg");
+        myImages1.push("image/monkey_part1x1.jpg");
+        myImages1.push("image/panda_swap_part1x1.jpg");
+        var myImages2 = new Array();
+        myImages2.push("image/funny-cat1_part2x1.jpg");
+        myImages2.push("image/monkey_part2x1.jpg");
+        myImages2.push("image/panda_swap_part2x1.jpg");
+        var myImages3 = new Array();
+        myImages3.push("image/funny-cat1_part3x1.jpg");
+        myImages3.push("image/monkey_part3x1.jpg");
+        myImages3.push("image/panda_swap_part3x1.jpg");
+        var myImages4 = new Array();
+        myImages4.push("image/funny-cat1_part4x1.jpg");
+        myImages4.push("image/monkey_part4x1.jpg");
+        myImages4.push("image/panda_swap_part4x1.jpg");
+        var myImages5 = new Array();
+        myImages5.push("image/funny-cat1_part5x1.jpg");
+        myImages5.push("image/monkey_part5x1.jpg");
+        myImages5.push("image/panda_swap_part5x1.jpg");
 
+        function getRandomInt() {
+          return Math.floor(Math.random() * 3);
+        }
+
+        function picking(a) {
+            switch(a){
+                case 1:
+                document.randimg1.src = myImages1[getRandomInt()];
+                break;
+                case 2:
+                document.randimg2.src = myImages2[getRandomInt()];
+                break;
+                case 3:
+                document.randimg3.src = myImages3[getRandomInt()];
+                break;
+                case 4:
+                document.randimg4.src = myImages4[getRandomInt()];
+                break;
+                case 5:
+                document.randimg5.src = myImages5[getRandomInt()];
+            }
+        }
+    </script>
 </body>
 </html>
