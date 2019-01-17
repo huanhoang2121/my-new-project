@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body onload="star()">
+	<p id="out"></p>
+</body>
+<script type="text/javascript">
+	function star(){
+		var value = prompt("Nhập vào tên ngôi sao:"); 
+		var star = ["Polaris","Aldebaran","Deneb","Vega" ,"Altair","Dubhe ","Regulus"];
+		var constellation = ["Ursa Minor","Tarurus","Cygnus","Lyra","Aquila","Ursa Major","Leo"];
+
+		for(var i = 0; i < star.length; i++){
+		    if(value == star[i]){
+		    	document.getElementById("out").innerHTML = "Tên ngôi sao : " + star[i] + "<br> Tên chòm sao: " + constellation[i];	
+		    	break;
+		    }
+		    else{
+		    	document.getElementById("out").innerHTML = "Không có ngôi sao này";
+		    }
+		}
+	}
+</script>
+</html>
