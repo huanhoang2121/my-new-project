@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+</body>
+<script type="text/javascript">
+	var characters = prompt(" Nhập 1 kí tự: ");
+	function checkChar(char)
+    {
+    	if (char == 'u' || char == 'i'|| char == 'e'|| char == 'o'|| char == 'a')
+    		return true;
+    	return false;
+    }
+	var resual = checkChar(characters); 
+	document.write("Kí tự "+ characters +" là: "+ (resual ? " nguyên âm " : " phụ âm ") );
+</script>
+</html>

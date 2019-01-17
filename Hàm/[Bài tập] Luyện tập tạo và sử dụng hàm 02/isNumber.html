@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+</body>
+<script type="text/javascript">
+	var number = prompt(" Nhập: ");
+	function checkSTN(s)
+    {
+    	if (s >= '0' && s <= '9')
+    		return true;
+    	return false;
+    }
+	var resual = checkSTN(number); 
+	document.write("Kí tự "+ number +" là: "+ (resual ? " số " : " chữ ") );
+</script>
+</html>
