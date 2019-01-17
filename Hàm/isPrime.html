@@ -14,13 +14,13 @@
 			}
 		}
 
-	function isPrime(k) {
-		if(k<2) {
+	function isPrime(number) {
+		if(number<2) {
 			return false;
 		}else {
-			var ro = parseInt(Math.sqrt(k));
-			for(let i=2; i<=ro; i++) {
-				if(k%i==0) {
+			var sqrtNumber = Math.sqrt(number);
+			for(let i=2; i<=sqrtNumber; i++) {
+				if(number%i==0) {
 					return false;
 				}
 			}
