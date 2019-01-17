@@ -4,30 +4,69 @@
 	<title></title>
 </head>
 <body>
-	<form action="">
-	  <input type="radio"  onclick="checked();" id="good" > GOOD<br>
-	  <input type="radio" onclick="checked();" id="cheap"> CHEAP<br>
-	  <input type="radio" onclick="checked();" id="fast"> FAST
-	</form>
-<button onclick="checked()">Try it</button>
-	
-	<script type="text/javascript">
-		function checked(){
-			if(document.getElementById("good").checked){
-				if(document.getElementById("cheap").checked){
-					if(document.getElementById("fast").checked){
-						document.getElementById("cheap").checked = false;
-					}
-				}else{
-					document.getElementById("fast").checked = true;
-				}
-			}else{
-				document.getElementById("fast").checked = true;
-				document.getElementById("cheap").checked = true;
-			}
-		}
 
-	</script>
+	<div align="center">
+		<table>
+			<tr>
+				<td>
+					<img width="100px" height="100px" name="anh1" src="image/no.png"  onclick="doihinh(1)">
+				</td>
+				<td>
+					<a style="font-size: 50px">__GOOD</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img width="100px" height="100px" name="anh2" src="image/no.png"  onclick="doihinh(2)">
+				</td>
+				<td>
+					<a style="font-size: 50px">__CHEAP</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img width="100px" height="100px" name="anh3" src="image/no.png"  onclick="doihinh(3)">
+				</td>
+				<td>
+					<a style="font-size: 50px">__FAST</a>
+				</td>
+			</tr>
+		</table>
+		 
 		
+	</div>
+<script type="text/javascript">
+	function doihinh(a){
+		switch(a){
+			case 1:
+				document.anh1.src = "image/yes.png";
+				if(document.anh1.src.substr(-7, 7) == "yes.png" && document.anh2.src.substr(-7, 7) == "yes.png"){
+					document.anh3.src = "image/no.png";
+				}
+				if(document.anh1.src.substr(-7, 7) == "yes.png" && document.anh3.src.substr(-7, 7) == "yes.png"){
+					document.anh2.src = "image/no.png";
+				}
+				break;
+			case 2:
+				document.anh2.src = "image/yes.png";
+				if(document.anh2.src.substr(-7, 7) == "yes.png" && document.anh3.src.substr(-7, 7) == "yes.png"){
+					document.anh1.src = "image/no.png";
+				}
+				if(document.anh2.src.substr(-7, 7) == "yes.png" && document.anh1.src.substr(-7, 7) == "yes.png"){
+					document.anh3.src = "image/no.png";
+				}
+				break;
+			case 3:
+				document.anh3.src = "image/yes.png";
+				if(document.anh3.src.substr(-7, 7) == "yes.png" && document.anh1.src.substr(-7, 7) == "yes.png"){
+					document.anh2.src = "image/no.png";
+				}
+
+		}
+	}
+		
+		
+
+</script>
 </body>
 </html>
