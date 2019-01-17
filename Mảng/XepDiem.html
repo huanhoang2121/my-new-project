@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+</body>
+<script type="text/javascript">
+	var arrTenDiem = [["Huấn", 7],
+					  ["Khánh", 9],
+					  ["Long", 8],
+					  ["Hoàng",6]];
+	var swap;
+	
+	for (var i = 1; i < arrTenDiem.length; i++) {
+		for (var j = 0; j < arrTenDiem.length-i; j++){		
+			if(arrTenDiem[j][1] > arrTenDiem[j+1][1]){
+				swap = arrTenDiem[j];
+				arrTenDiem[j] = arrTenDiem[j+1];
+				arrTenDiem[j+1] = swap;
+			}
+		}
+	}
+	document.write(arrTenDiem+" " );
+	
+	
+</script>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h3>Nhập vào từ tiếng anh: </h3>
+	<input type="text" id="in">
+	<input type="button" value="Dịch" onclick="a()">
+	<p id="out"></p>
+</body>
+<script type="text/javascript">
+	function a(){
+		var value = document.getElementById("in").value;
+		var english    = ["home","number","you","me" ,"face","book"];
+		var vietnamese = ["nhà" ,"số"    ,"bạn","tôi","mặt" ,"sách"];
+
+		for(var i = 0; i < english.length; i++){
+		    if(value == english[i]){
+		    	document.getElementById("out").innerHTML = "Từ tiếng Anh: " + english[i] + "<br> Từ tiếng Việt: " + vietnamese[i];	
+		    }
+		}
+	}
+</script>
+</html>

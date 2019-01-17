@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+</body>
+<script type="text/javascript">
+	var numbers = [2, 2, 4, 5, 3, 8, 12];
+	var a = "";
+
+	for(let i = 0; i < numbers.length; i++){
+		if(numbers[i]%2==0 && numbers[i-1]%2==0){
+			a += " - "+numbers[i]+" ";
+		}
+		else a += " "+numbers[i]+" ";
+	}
+	document.write(a);
+</script>
+</html>

@@ -3,68 +3,74 @@
 <head>
     <title></title>
 </head>
-<body onload="picking()">
-    <div class="fenetre" align="center">
-      <a href="#" onclick="picking(1);return false;">
-        <img width="800px" src="image/funny-cat1_part1x1.jpg" height="160px"  name="randimg1" border=0>
-      </a><br>
-      <a href="#" onclick="picking(2);return false;">
-        <img width="800px" src="image/monkey_part2x1.jpg" height="160px"  name="randimg2" border=0>
-      </a><br>
-      <a href="#" onclick="picking(3);return false;">
-        <img width="800px" src="image/panda_swap_part3x1.jpg" height="160px"  name="randimg3" border=0>
-      </a><br>
-      <a href="#" onclick="picking(4);return false;">
-        <img width="800px" src="image/panda_swap_part4x1.jpg" height="160px" name="randimg4" border=0>
-      </a><br>
-      <a href="#" onclick="picking(5);return false;">
-        <img width="800px" src="image/monkey_part5x1.jpg" height="160px"  name="randimg5" border=0>
-      </a><br>
+<body>
+    <div align="center">
+        <img id="p1" width="800px" src="image/00.jpg" onclick="picking(1)" height="160px"  name="randimg1"><br>
+        <img id="p2" width="800px" src="image/21.jpg" onclick="picking(2)" height="160px"  name="randimg2"><br>
+        <img id="p3" width="800px" src="image/12.jpg" onclick="picking(3)" height="160px"  name="randimg3"><br>
+        <img id="p4" width="800px" src="image/23.jpg" onclick="picking(4)" height="160px" name="randimg4"><br>
+        <img id="p5" width="800px" src="image/14.jpg" onclick="picking(5)" height="160px"  name="randimg5"><br>
     </div>
     <script type="text/javascript">
-        var myImages1 = new Array();
-        myImages1.push("image/funny-cat1_part1x1.jpg");
-        myImages1.push("image/monkey_part1x1.jpg");
-        myImages1.push("image/panda_swap_part1x1.jpg");
-        var myImages2 = new Array();
-        myImages2.push("image/funny-cat1_part2x1.jpg");
-        myImages2.push("image/monkey_part2x1.jpg");
-        myImages2.push("image/panda_swap_part2x1.jpg");
-        var myImages3 = new Array();
-        myImages3.push("image/funny-cat1_part3x1.jpg");
-        myImages3.push("image/monkey_part3x1.jpg");
-        myImages3.push("image/panda_swap_part3x1.jpg");
-        var myImages4 = new Array();
-        myImages4.push("image/funny-cat1_part4x1.jpg");
-        myImages4.push("image/monkey_part4x1.jpg");
-        myImages4.push("image/panda_swap_part4x1.jpg");
-        var myImages5 = new Array();
-        myImages5.push("image/funny-cat1_part5x1.jpg");
-        myImages5.push("image/monkey_part5x1.jpg");
-        myImages5.push("image/panda_swap_part5x1.jpg");
-
-        function getRandomInt() {
-          return Math.floor(Math.random() * 3);
-        }
 
         function picking(a) {
+            var setFlag = true;
             switch(a){
                 case 1:
-                document.randimg1.src = myImages1[getRandomInt()];
+                document.randimg1.src = "image/"+ Math.floor(Math.random() * 3) +"0.jpg";
                 break;
                 case 2:
-                document.randimg2.src = myImages2[getRandomInt()];
+                document.randimg2.src = "image/"+ Math.floor(Math.random() * 3) +"1.jpg";
                 break;
                 case 3:
-                document.randimg3.src = myImages3[getRandomInt()];
+                document.randimg3.src = "image/"+ Math.floor(Math.random() * 3) +"2.jpg";
                 break;
                 case 4:
-                document.randimg4.src = myImages4[getRandomInt()];
+                document.randimg4.src = "image/"+ Math.floor(Math.random() * 3) +"3.jpg";
                 break;
                 case 5:
-                document.randimg5.src = myImages5[getRandomInt()];
+                document.randimg5.src = "image/"+ Math.floor(Math.random() * 3) +"4.jpg";
+            }
+            if((document.randimg1.src.substr(-6, 6) == "00.jpg" && 
+                document.randimg2.src.substr(-6, 6) == "01.jpg" && 
+                document.randimg3.src.substr(-6, 6) == "02.jpg" && 
+                document.randimg4.src.substr(-6, 6) == "03.jpg" && 
+                document.randimg5.src.substr(-6, 6) == "04.jpg")
+                ||
+               (document.randimg1.src.substr(-6, 6) == "10.jpg" && 
+                document.randimg2.src.substr(-6, 6) == "11.jpg" && 
+                document.randimg3.src.substr(-6, 6) == "12.jpg" && 
+                document.randimg4.src.substr(-6, 6) == "13.jpg" && 
+                document.randimg5.src.substr(-6, 6) == "14.jpg")
+                ||
+               (document.randimg1.src.substr(-6, 6) == "20.jpg" && 
+                document.randimg2.src.substr(-6, 6) == "21.jpg" && 
+                document.randimg3.src.substr(-6, 6) == "22.jpg" && 
+                document.randimg4.src.substr(-6, 6) == "23.jpg" && 
+                document.randimg5.src.substr(-6, 6) == "24.jpg")){
+
+                setFlag = false;
+            }
+            if (setFlag) {
+                document.getElementById("p1").style.boxShadow = "";
+                document.getElementById("p2").style.boxShadow = "";
+                document.getElementById("p3").style.boxShadow = "";
+                document.getElementById("p4").style.boxShadow = "";
+                document.getElementById("p5").style.boxShadow = "";
+            }
+            else {
+                document.getElementById("p1").style.boxShadow = "10px 20px 30px red";
+                document.getElementById("p2").style.boxShadow = "10px 20px 30px red";
+                document.getElementById("p3").style.boxShadow = "10px 20px 30px red";
+                document.getElementById("p4").style.boxShadow = "10px 20px 30px red";
+                document.getElementById("p5").style.boxShadow = "10px 20px 30px red";
             }
         }
+
+        
+
+
     </script>
+
 </body>
 </html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+</body>
+<script type="text/javascript">
+	var number = 10000;
+
+	for(let i=0; i<number; i++) {
+			if(isPrime(i)==true) {
+				document.write(i+" ");
+			}
+		}
+
+	function isPrime(k) {
+		if(k<2) {
+			return false;
+		}else {
+			var ro = parseInt(Math.sqrt(k));
+			for(let i=2; i<=ro; i++) {
+				if(k%i==0) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+</script>
+</html>

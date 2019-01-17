@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div align="center">
+    	<h3>Caro Game Simple</h3>
+        <hr>
+        <p id="carogame"/>
+    </div>
+</body>
+<script type="text/javascript">
+	var outPut = document.getElementById("carogame");
+ 	var board = [];
+	var rows = 10;
+	var columns = 10;
+	var data = "";
+	var click = true;
+
+	
+	outArray(rows, columns);
+
+	function clickbnt(id){
+		fill2DArray(board, rows, columns);
+		var idbtn = document.getElementById(id);
+		var x = parseInt(idbtn.id.substr(0, 1));
+		var y = parseInt(idbtn.id.substr(1, 1));
+		if (click) {
+			click = false;
+			idbtn.disabled = true;
+			idbtn.value = "O";
+			board[x][y] = "O";
+		}
+		else {
+			click = true;
+			idbtn.disabled = true;
+			idbtn.value = "X";
+			board[x][y] = "X";
+		}
+		check(idbtn, x, y);
+	}
+
+	function check(idbtn, x, y){
+		var val = idbtn.value;
+		//if(board[x][y] == "X" && board[x+1][y+1] == "X")
+			console.log(board[x][y]);
+			console.log(board[1][1]);
+			console.log(board[x][y+1]);
+	}
+
+	
+	function outArray(rows, columns){
+	    for (var i = 0; i < rows; i++) {
+	        data += "<br/>";
+	        for (var j = 0; j < columns; j++) {
+	            data += "<input id='"+ i + j +"' style='width:30px; height:30px' type='button' value=' ' onclick='clickbnt(this.id)'>";
+	        }
+	    }
+	    outPut.innerHTML = data;
+	}
+
+	function fill2DArray(board, rows, columns){
+	    for (var i = 0; i < rows; i++) {
+	        board[i] = [];
+	        for (var j = 0; j < columns; j++) {
+	            board[i][j]= " ";
+	        }
+	    }
+	}
+   
+
+</script>
+</html>

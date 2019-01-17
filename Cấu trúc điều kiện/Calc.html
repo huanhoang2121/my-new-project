@@ -8,65 +8,77 @@
 <table align="center" border="1">
 	<tr align="center">
 		<td colspan="4">
-			<input style="text-align: right;" type="text" id="answer" size="20" value="1"><br>
+			<input style="text-align: right;" type="text" id="answer" size="20"><br>
 		</td>
 	</tr>
 	<tr align="center">
 		<td>
-			<input type="submit"  onclick="answer.value+=this.value" value="1">
+			<input type="submit" onclick="noichuoi(this)" value="1">
 		</td>
 		<td>
-			<input type="submit"  onclick="answer.value+=this.value" value="2">
+			<input type="submit" onclick="noichuoi(this)" value="2">
 		</td>
 		<td>
-			<input type="submit"  onclick="answer.value+=this.value" value="3">
+			<input type="submit" onclick="noichuoi(this)" value="3">
 		</td>
 		<td>
-			<input type="submit"  onclick="answer.value+=this.value" value="+">
-		</td>
-	</tr>
-	<tr align="center">
-		<td>
-			<input type="submit"  onclick="answer.value+=this.value" value="4">
-		</td>
-		<td>
-			<input type="submit"  onclick="answer.value+=this.value" value="5">
-		</td>
-		<td>
-			<input type="submit"  onclick="answer.value+=this.value" value="6">
-		</td>
-		<td>
-			<input type="submit"  onclick="answer.value+=this.value" value="-">
+			<input type="submit" onclick="noichuoi(this)" value="+">
 		</td>
 	</tr>
 	<tr align="center">
 		<td>
-			<input type="submit"  onclick="answer.value+=this.value" value="7">
+			<input type="submit" onclick="noichuoi(this)" value="4">
 		</td>
 		<td>
-			<input type="submit"  onclick="answer.value+=this.value" value="8">
+			<input type="submit" onclick="noichuoi(this)" value="5">
 		</td>
 		<td>
-			<input type="submit"  onclick="answer.value+=this.value" value="9">
+			<input type="submit" onclick="noichuoi(this)" value="6">
 		</td>
 		<td>
-			<input type="submit"  onclick="answer.value+=this.value" value="*">
+			<input type="submit" onclick="noichuoi(this)" value="-">
 		</td>
 	</tr>
 	<tr align="center">
 		<td>
-			<input type="submit"  onclick="answer.value='0'" value="C">
+			<input type="submit" onclick="noichuoi(this)" value="7">
 		</td>
 		<td>
-			<input type="submit"  onclick="answer.value+=this.value" value="0">
+			<input type="submit" onclick="noichuoi(this)" value="8">
 		</td>
 		<td>
-			<input type="submit"  onclick="answer.value = eval(answer.value)" value="=">
+			<input type="submit" onclick="noichuoi(this)" value="9">
 		</td>
 		<td>
-			<input type="submit"  onclick="answer.value+=this.value" value="/">
+			<input type="submit"  onclick="noichuoi(this)" value="*">
+		</td>
+	</tr>
+	<tr align="center">
+		<td>
+			<input type="submit"  onclick="xoa()" value="C">
+		</td>
+		<td>
+			<input type="submit"  onclick="noichuoi(this)" value="0">
+		</td>
+		<td>
+			<input type="submit"  onclick="tinh()" value="=">
+		</td>
+		<td>
+			<input type="submit"  onclick="noichuoi(this)" value="/">
 		</td>
 	</tr>
 </table>
 </body>
+<script>
+	function noichuoi(this1){
+		document.getElementById("answer").value += this1.value;
+	}
+	function xoa(){
+		document.getElementById("answer").value = "";
+	}
+	function tinh(){
+		document.getElementById("answer").value = eval(document.getElementById("answer").value);
+	}
+
+</script>
 </html>
