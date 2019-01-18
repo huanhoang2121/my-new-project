@@ -3,12 +3,14 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Products CRUD</title>
+    <title>Products Manager</title>
     <style type="text/css">
     	.container {
+            align-self: auto;
+            text-align: center;
 		    border-radius: 5px;
 		    background-color: #f2f2f2;
-		    padding: 20px;
+		    padding: 10px;
 		    width: 30%;
 		}
 
@@ -26,15 +28,15 @@
 
 		input[type='submit'], button, [aria-label]{
 		    cursor: pointer;
-		    background-color: #4CAF50;
+		    background-color: rgb(18, 189, 241);
 		    color: white;
 		    padding: 12px 20px;
 		    border: none;
 		    border-radius: 4px;
 		}
 
-		input[type=submit]:hover {
-		    background-color: #45a049;
+		input[type=submit]:hover, button:hover, [aria-label]:hover {
+		    background-color: #0ef3d5;
 		}
 
 		#spoiler{
@@ -60,38 +62,65 @@
 
     </style>
 </head>
-<body>
+<body  onload="closeInput()">
 
-<h3>Add New Product</h3>
-<div class="container">
-<form action="javascript:void(0);" method="POST" onsubmit="app.add()">
-    <input type="text" id="add-name" placeholder="New Product">
-    <input type="submit" value="Add">
-</form>
+<div class="body">
+    <h3>Add New Product</h3>
+    <div class="container">
+    <form action="javascript:void(0);" method="POST" onsubmit="app.add()">
+        <input type="text" id="add-name" placeholder="New Product">
+        <input type="submit" value="Add">
+    </form>
+    </div>
+
+    <h3>Display All Product</h3>
+    <table>
+        <tr>
+            <th style = "text-align: left;">Product Name</th>
+            <th style = "text-align: right; color:brown" colspan="2"><p id="counter"></p></th>
+        </tr>
+        <tbody id="products">
+        </tbody>
+    </table>
+
+    <div id="spoiler" role="aria-hidden">
+        <h3>Edit Product</h3>
+        <div class="container">
+        <form action="javascript:void(0);" method="POST" id="saveEdit">
+            <input type="text" id="edit-name"> <br>
+            <div style = "text-align: right; padding-right: 100px;">
+                <input type="submit" value="Edit" /> <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+            </div>
+        </form>
+        </div>
+    </div>
+    </p>
 </div>
 
-<h3>Display All Product</h3>
-<table>
-    <tr>
-        <th style = "text-align: left;">Product Name</th>
-        <th style = "text-align: right; color:brown" colspan="2"><p id="counter"></p></th>
-    </tr>
-    <tbody id="products">
-    </tbody>
-</table>
+
+
+</body>
 <script>
 	var app = new function() {
     this.el = document.getElementById('products');
-    this.products = ['Sony Xperia', 'Samsung Galaxy', 'Nokia 6', 'Xiaomi Redmi Note 4', 'Apple iPhone 6S', 'Xiaomi Mi 5s Plus', 'Apple iPhone 8 Plus', 'Fujitsu F-04E', 'Oppo A71'];
+    this.products = ['Sony Xperia', 
+                    'Samsung Galaxy', 
+                    'Nokia 6', 
+                    'Xiaomi Redmi Note 4', 
+                    'Apple iPhone 6S', 
+                    'Xiaomi Mi 5s Plus', 
+                    'Apple iPhone 8 Plus', 
+                    'Fujitsu F-04E', 
+                    'Oppo A71'];
 
-    this.count = function(data) {
+    this.count = function(pcount) {
         var el   = document.getElementById('counter');
         var name = 'product';
-        if (data) {
-            if (data > 1) {
+        if (pcount) {
+            if (pcount > 1) {
                 name = 'products';
             }
-            el.innerHTML = data + ' ' + name ;
+            el.innerHTML = pcount + ' ' + name ;
         } else {
             el.innerHTML = 'No ' + name;
         }
@@ -148,18 +177,4 @@ function closeInput() {
     document.getElementById('spoiler').style.display = 'none';
 }
 </script>
-
-
-<div id="spoiler" role="aria-hidden">
-    <h3>Edit Product</h3>
-    <div class="container">
-    <form action="javascript:void(0);" method="POST" id="saveEdit">
-        <input type="text" id="edit-name">
-        <input type="submit" value="Edit" /> <a onclick="closeInput()" aria-label="Close">&#10006;</a>
-    </form>
-    </div>
-</div>
-</p>
-
-</body>
 </html>
