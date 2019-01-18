@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+</body>
+<script type="text/javascript">
+
+    var str = prompt("Nhập vào 1 chuỗi: ")
+    var arrStr = str.split("");
+
+    function sum(n){
+    return n > 0 ? sum( n - 1 ) + n : 0;
+    }
+    document.write( 'Chuỗi: "' + arrStr + '"  :' );
+    document.write( isPalindrome(arrStr) ? " Đối xứng" : " Không đối xứng" );
+
+
+    function isPalindrome(arrStr){
+        if(arrStr.length < 2){
+            return true;
+        }
+        else if(arrStr[0] === arrStr[arrStr.length - 1]){
+            arrStr.pop();
+            arrStr.shift();
+            return isPalindrome(arrStr);
+        }
+        else return false;
+
+    }
+</script>
+</html>
