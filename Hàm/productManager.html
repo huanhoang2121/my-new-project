@@ -8,9 +8,14 @@
     	.body {
             align-self: center;
             text-align: center;
-		    border-radius: 5px;
-		    padding: 10px;
 		    width: 100%;
+            border: 1px solid #ddd;
+
+            border-radius: 3px;
+            margin-bottom: 16px;
+            margin-top: 16px;
+            margin-left: 24%;
+            margin-right: 24%;
 		}
     	.container {
             align-self: center;
@@ -115,15 +120,15 @@
 <script>
 	var app = new function() {
     this.el = document.getElementById('products');
-    this.products = ['Sony Xperia', 
-                    'Samsung Galaxy', 
-                    'Nokia 6', 
-                    'Xiaomi Redmi Note 4', 
-                    'Apple iPhone 6S', 
-                    'Xiaomi Mi 5s Plus', 
-                    'Apple iPhone 8 Plus', 
-                    'Fujitsu F-04E', 
-                    'Oppo A71'];
+    this.products = ['001: Áo Khoác Phao', 
+                    '002: Áo Khoác Phao',
+                    '003: Áo Khoác Phao', 
+                    '101: Quần Jean',  
+                    '102: Quần Jean', 
+                    '103: Quần Jean', 
+                    '201: Sơ Mi', 
+                    '202: Sơ Mi', 
+                    '203: Sơ Mi'];
 
     this.count = function(pcount) {
         var el   = document.getElementById('counter');
