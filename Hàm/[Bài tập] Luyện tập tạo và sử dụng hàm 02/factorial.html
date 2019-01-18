@@ -6,15 +6,16 @@
 <body>
 </body>
 <script type="text/javascript">
-	var number = 5;
-	var fac = 1;
-	function factorial() {
-		for(let i = 1; i<=number; i++){
-			fac *= i;
+	var number = prompt("Nhập 1 số:");
+	function factorial(num) {
+		if(num == 0){
+			return 1;
 		}
-    return fac;
+		else{
+			return num *= factorial(num - 1);
+		}
 	}
-	fac = factorial(); 
-	document.write("Giai thừa của: "+ number + " là " + fac );
+	resual = factorial(number); 
+	document.write("Giai thừa của: "+ number + " là " + resual );
 </script>
 </html>
