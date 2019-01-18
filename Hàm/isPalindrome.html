@@ -9,10 +9,7 @@
 
     var str = prompt("Nhập vào 1 chuỗi: ")
     var arrStr = str.split("");
-
-    function sum(n){
-    return n > 0 ? sum( n - 1 ) + n : 0;
-    }
+    
     document.write( 'Chuỗi: "' + arrStr + '"  :' );
     document.write( isPalindrome(arrStr) ? " Đối xứng" : " Không đối xứng" );
 
