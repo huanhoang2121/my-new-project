@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7700d74d-b5e4-4e9f-9599-bbcfcc344df4" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/Date.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hàm/productManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hàm/productManager.html" afterDir="false" />
-    </list>
+    <list default="true" id="7700d74d-b5e4-4e9f-9599-bbcfcc344df4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Date.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hàm/productManager.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Circel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="206" column="16" selection-start-line="206" selection-start-column="8" selection-end-line="206" selection-end-column="16" />
+            <state relative-caret-position="136">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -52,6 +49,7 @@
         <option value="$PROJECT_DIR$/Hàm/product.html" />
         <option value="$PROJECT_DIR$/Hàm/productManager.html" />
         <option value="$PROJECT_DIR$/Lập trình hướng đối tượng/Date.html" />
+        <option value="$PROJECT_DIR$/Lập trình hướng đối tượng/Circel.html" />
       </list>
     </option>
   </component>
@@ -79,7 +77,7 @@
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="Hàm" type="462c0819:PsiDirectoryNode" />
+              <item name="Lập trình hướng đối tượng" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -116,7 +114,7 @@
       <updated>1548003121585</updated>
       <workItem from="1548003125737" duration="493000" />
       <workItem from="1548038662965" duration="669000" />
-      <workItem from="1548040374712" duration="1097000" />
+      <workItem from="1548040374712" duration="1477000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548003293356</created>
@@ -125,17 +123,23 @@
       <option name="project" value="LOCAL" />
       <updated>1548003293357</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1548041577089</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548041577089</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2259000" />
+    <option name="totallyTimeSpent" value="2639000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="754" y="0" width="1173" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="870" y="0" width="1057" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29955947" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33366045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -146,7 +150,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
@@ -157,6 +161,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
@@ -188,7 +218,14 @@
     <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Date.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Circel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
