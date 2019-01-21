@@ -5,9 +5,23 @@
     <title></title>
 </head>
 <body>
+<canvas id="myCanvas" height="1600px" width="938px"></canvas>
 </body>
 <script>
-    var Circle = function(radius) {
+    var Circle = function() {
+        var c = document.getElementById("myCanvas");
+        var radius = Math.floor(Math.random() * 50) + 10;
+        var color = "#"+Math.floor(Math.random()*16777215).toString(16);
+        var x = Math.floor(Math.random() * 700) + radius;
+        var y = Math.floor(Math.random() * 500) + radius;
+
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = color ;
+        ctx.arc(x,y, radius, 0, 2*Math.PI);
+        ctx.fill();
+        ctx.stroke(); //màu viền
+
+
         this.getRadius = function() {
             return radius;
         }
@@ -16,9 +30,9 @@
         }
     };
     var circle = new Circle(2);
-    var radius = circle.getRadius(); // 2
-    var area = circle.getArea(); // 12.566370614359172
+    var radius = circle.getRadius();
+    var area = circle.getArea();
 
-    alert("radius: " + radius + "; area: " + area);
+    //alert("radius: " + radius + "; area: " + area);
 </script>
 </html>
