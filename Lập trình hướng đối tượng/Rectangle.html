@@ -8,14 +8,14 @@
 <canvas id="myCanvas" width="1368px" height="768px" style="border:1px solid #d3d3d3;"></canvas>
 </body>
 <script !src="">
-    var Rectangle = function(){
+    var Rectangle = function(cd, cr){
         var c = document.getElementById("myCanvas");
         var color = "#"+Math.floor(Math.random()* 255 * 255 * 255).toString(16);
-        this.chieudai = Math.floor(Math.random() * 200) + 100;
-        this.chieurong = Math.floor(Math.random() * 300) + 100;
+        this.chieudai = cd;
+        this.chieurong = cr;
         var ctx = c.getContext("2d");
         ctx.fillStyle = color ;
-        ctx.fillRect(10, 10, chieudai, chieurong);
+        ctx.fillRect(10, 10, this.chieudai, this.chieurong);
 
 
         this.getChuvi = function() {
@@ -26,11 +26,9 @@
         }
     }
     Rectangle();
-    var rectangle = new Rectangle();
-    var chieudai = rectangle.chieudai;
-    var chieurong = rectangle.chieurong;
+    var rectangle = new Rectangle(200, 100);
     var chuvi = rectangle.getChuvi();
     var dientich = rectangle.getDientich();
-    alert( "Chiều dài: " + chieudai + " Chiều rộng: " + chieurong+ " Chu vi: " + chuvi+ " Diện tích " + dientich);
+    alert(" Chu vi: " + chuvi+ " Diện tích " + dientich);
 </script>
 </html>
