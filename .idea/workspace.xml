@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7700d74d-b5e4-4e9f-9599-bbcfcc344df4" name="Default Changelist" comment="" />
+    <list default="true" id="7700d74d-b5e4-4e9f-9599-bbcfcc344df4" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lập trình hướng đối tượng/Circel.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/Circel.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Date.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -25,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Circel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="357">
+              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -58,7 +62,7 @@
     <option name="width" value="1057" />
     <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -73,11 +77,6 @@
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="Lập trình hướng đối tượng" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -114,7 +113,7 @@
       <updated>1548003121585</updated>
       <workItem from="1548003125737" duration="493000" />
       <workItem from="1548038662965" duration="669000" />
-      <workItem from="1548040374712" duration="1477000" />
+      <workItem from="1548040374712" duration="2068000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548003293356</created>
@@ -134,10 +133,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2639000" />
+    <option name="totallyTimeSpent" value="3230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="870" y="0" width="1057" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33366045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -218,14 +218,14 @@
     <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Date.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Circel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="357">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
         </state>
       </provider>
     </entry>
