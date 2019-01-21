@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+</body>
+<script !src="">
+    var Temperature = function (doC) {
+        this.doC = doC;
+
+        this.getDoF = function() {
+            return this.doC * 1.8 + 32;
+        }
+        this.getDoK = function() {
+            return this.doC + 273.15;
+        }
+    }
+
+    var tempe = new Temperature(25);
+    var doC = tempe.doC;
+    var doF = tempe.getDoF();
+    var doK = tempe.getDoK();
+
+    alert( doC + " = " + doF + " độ F = " + doK + " độ K ");
+</script>
+</html>
