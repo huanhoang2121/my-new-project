@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rectangle</title>
+</head>
+<body>
+<canvas id="myCanvas" width="1368px" height="768px" style="border:1px solid #d3d3d3;"></canvas>
+</body>
+<script !src="">
+    var Rectangle = function(){
+        var c = document.getElementById("myCanvas");
+        var color = "#"+Math.floor(Math.random()* 255 * 255 * 255).toString(16);
+        this.chieudai = Math.floor(Math.random() * 200) + 100;
+        this.chieurong = Math.floor(Math.random() * 300) + 100;
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = color ;
+        ctx.fillRect(10, 10, chieudai, chieurong);
+
+
+        this.getChuvi = function() {
+            return (this.chieurong + this.chieudai)* 2 ;
+        }
+        this.getDientich = function() {
+            return this.chieurong * this.chieudai;
+        }
+    }
+    Rectangle();
+    var rectangle = new Rectangle();
+    var chieudai = rectangle.chieudai;
+    var chieurong = rectangle.chieurong;
+    var chuvi = rectangle.getChuvi();
+    var dientich = rectangle.getDientich();
+    alert( "Chiều dài: " + chieudai + " Chiều rộng: " + chieurong+ " Chu vi: " + chuvi+ " Diện tích " + dientich);
+</script>
+</html>
