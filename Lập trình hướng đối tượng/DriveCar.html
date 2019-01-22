@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Drive Car</title>
+</head>
+<body onload="docReady();">
+<img src="img/car1.png" style="position:absolute;left:0; top:0;" id="car">
+</body>
+<script type="text/javascript">
+    const element = document.getElementById("car");
+    function upArrowPressed() {
+        element.style.transform = "rotate(0deg)";
+        element.style.top = parseInt(element.style.top) - 25 + 'px';
+    }
+    function downArrowPressed() {
+        element.style.transform = "rotate(180deg)";
+        element.style.top = parseInt(element.style.top) + 25 + 'px';
+    }
+    function leftArrowPressed() {
+        element.style.transform = "rotate(-90deg)";
+        element.style.left = parseInt(element.style.left) - 25 + 'px';
+    }
+    function rightArrowPressed() {
+        element.style.transform = "rotate(90deg)";
+        element.style.left = parseInt(element.style.left) + 25 + 'px';
+    }
+    function moveSelection(evt) {
+        switch (evt.keyCode) {
+            case 37:
+                leftArrowPressed();
+                break;
+            case 39:
+                rightArrowPressed();
+                break;
+            case 38:
+                upArrowPressed();
+                break;
+            case 40:
+                downArrowPressed();
+                break;
+        }
+    }
+    function docReady(){
+        window.addEventListener('keydown', moveSelection);
+    }
+</script>
+</html>
