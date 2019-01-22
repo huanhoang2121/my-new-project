@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7700d74d-b5e4-4e9f-9599-bbcfcc344df4" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/Temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/Phone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Date.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="42" />
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Circel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="14" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="14" />
+            <state relative-caret-position="204">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Rectangle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="374">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -45,11 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Temperature.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="340">
+              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Phone.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -88,6 +98,7 @@
         <option value="$PROJECT_DIR$/Lập trình hướng đối tượng/FunnyCircle.html" />
         <option value="$PROJECT_DIR$/Lập trình hướng đối tượng/Rectangle.html" />
         <option value="$PROJECT_DIR$/Lập trình hướng đối tượng/Temperature.html" />
+        <option value="$PROJECT_DIR$/Lập trình hướng đối tượng/Phone.html" />
       </list>
     </option>
   </component>
@@ -104,7 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,6 +131,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,12 +151,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Phone.html">
+    <configuration name="Phone.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my-new-project/Lập trình hướng đối tượng/Phone.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Rectangle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my-new-project/Lập trình hướng đối tượng/Rectangle.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Phone.html" />
         <item itemvalue="JavaScript Debug.Rectangle.html" />
       </list>
     </recent_temporary>
@@ -162,7 +177,8 @@
       <updated>1548003121585</updated>
       <workItem from="1548003125737" duration="493000" />
       <workItem from="1548038662965" duration="669000" />
-      <workItem from="1548040374712" duration="8511000" />
+      <workItem from="1548040374712" duration="19074000" />
+      <workItem from="1548125715966" duration="5423000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548003293356</created>
@@ -196,13 +212,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9673000" />
+    <option name="totallyTimeSpent" value="25659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36324787" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15170941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -215,7 +231,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3261105" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -250,6 +266,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
@@ -278,6 +308,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Date.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Circel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Rectangle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Temperature.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/FunnyCircle.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -288,34 +349,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Circel.html">
+    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Phone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Rectangle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Date.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Temperature.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="272">
+          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
         </state>
       </provider>
     </entry>

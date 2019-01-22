@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile phone</title>
+</head>
+<body onload="nokia.soantin();">
+    <a>Nokia</a><a id="pin"></a><input type="button" value="Sạc pin" onclick="nokia.sacpin();"><br>
+    <input type="button" value="Soạn tin" onclick="nokia.soantin();">
+    <input type="button" value="Tin nhắn mới" onclick="nokia.xemtinvuaden();">
+    <input type="button" value="Hộp thư đến" onclick="nokia.xemhopthuden();">
+    <input type="button" value="Hộp thư đi" onclick="nokia.xemtindagui();"><br>
+    <a id="hopthu"></a>
+    <div id="soantin" hidden="hidden">
+        <input type='text' id='tinnhan'>
+        <input type='button' value='Gửi' onclick='nokia.tindi(iphone, document.getElementById("tinnhan").value)'>
+    </div>
+</body>
+<script !src="">
+    class Mobile {
+        constructor(){
+            this.trangthai = false;
+            this.pin = 100;
+            this.hopthuden = ["Hoàng Văn Huấn","Hello"];
+            this.hopthudi = ["Hoàng Văn"];
+        }
+        battat(trangthai){
+            if(trangthai)
+                this.trangthai = false;
+            else
+                this.trangthai = true;
+            return this.trangthai;
+        }
+        sacpin() {
+            //if(this.pin <= 90)
+            this.pin += 1;
+            document.getElementById("pin").innerText = this.pin+"%";
+        }
+        tinden(nguoigui, tin) {
+            alert(tin);
+            this.hopthuden.push(tin);
+            this.sudung();
+        }
+        tindi(nguoinhan, tin) {
+            this.hopthudi.push(tin);
+            nguoinhan.tinden(this, tin)
+            this.sudung();
+        }
+        soantin(){
+            document.getElementById('soantin').hidden = false;
+            var tin = document.getElementById('tinnhan').value;
+            document.getElementById('tinnhan').value = "";
+        }
+        xemtinvuaden(){
+            this.sudung();
+            document.getElementById('soantin').hidden = true;
+            document.getElementById("hopthu").innerHTML =
+                    "Tin nhắn mới: <br>" + this.hopthuden[this.hopthuden.length-1] ;
+        }
+        xemhopthuden(){
+            document.getElementById('soantin').hidden = true;
+            var data = "Hộp thư đến: "+"<br>";
+            for(let i = 0; i < this.hopthuden.length; i++){
+                data += this.hopthuden[i]+"<br>";
+            }
+            document.getElementById("hopthu").innerHTML = data;
+            this.sudung();
+        }
+        xemtindagui(){
+            document.getElementById('soantin').hidden = true;
+            var data = "Hộp thư đi: "+"<br>";
+            for(let i = 0; i < this.hopthudi.length; i++){
+                data += this.hopthudi[i]+"<br>";
+            }
+            document.getElementById("hopthu").innerHTML = data;
+            this.sudung();
+        }
+        sudung(){
+            this.pin -= 1;
+        }
+    }
+
+    var iphone = new Mobile();
+    var nokia = new Mobile();
+    document.getElementById("pin").innerText = nokia.pin+"%";
+    // nokia.battat(nokia.trangthai);
+    // nokia.sacpin(nokia.pin);
+    // alert(nokia.trangthai + " " + nokia.pin);
+    // alert(iphone.pin);
+    // nokia.tindi(iphone, "Nokia: Hello Iphone!" );
+    // iphone.tindi(nokia, "Iphone: Hello Nokia!" );
+    // iphone.tindi(nokia, "Iphone: Hello Nokia1!" );
+    // iphone.tindi(nokia, "Iphone: Hello Nokia2!" );
+
+</script>
+</html>
