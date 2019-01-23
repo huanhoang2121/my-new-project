@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adam và Eva</title>
+</head>
+<body>
+</body>
+<script !src="">
+    class Apple{
+        constructor(){
+            this.weight = 10;
+        }
+        decrease(){
+            this.weight -= 1;
+            alert("Chỉ được cạp thêm " + this.weight + " miếng!");
+        }
+        isEmpty(){
+            if(this.weight == 0){
+                alert("Đã ăn hết!");
+            }
+        }
+        getWeight(){
+            this.weight;
+        }
+    }
+    class Human extends Apple{
+        constructor(_name, _gender){
+            super();
+            this.name = _name;
+            this.gender = _gender;
+            this.weight = 100;
+        }
+        isMale(){
+            if(this.gender){
+                alert("Nam!");
+            }
+            else {
+                alert("Nữ!");
+            }
+        }
+        setGender(_gender){
+            this.gender = _gender;
+        }
+        checkApple(_apple){
+            alert(_apple.weight)
+        }
+        eat(_apple){
+            if(_apple.weight > 0){
+                _apple.decrease();
+            }
+            else{
+                _apple.isEmpty();
+            }
+        }
+        say(_mess){
+            alert(_mess);
+        }
+        getWeight(){
+            this.weight;
+        }
+        setWeight(_weight){
+            this.weight = _weight;
+        }
+        getName(){
+            this.name;
+        }
+        setName(_name){
+            this.name = _name;
+        }
+    }
+    var apple = new Apple();
+    var adam = new Human("Adam", true);
+    adam.checkApple(apple);
+    adam.setGender(false);
+</script>
+</html>

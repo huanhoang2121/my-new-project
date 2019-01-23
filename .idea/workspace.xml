@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7700d74d-b5e4-4e9f-9599-bbcfcc344df4" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/car1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/adameva.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -48,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -60,13 +58,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/adameva.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -94,12 +101,13 @@
         <option value="$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Battery.html" />
         <option value="$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/index.html" />
         <option value="$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/script.js" />
+        <option value="$PROJECT_DIR$/Lập trình hướng đối tượng/adameva.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="409" />
-    <option name="width" value="1518" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -201,7 +209,7 @@
       <workItem from="1548125715966" duration="6106000" />
       <workItem from="1548139237591" duration="10525000" />
       <workItem from="1548213859931" duration="86000" />
-      <workItem from="1548213992534" duration="3909000" />
+      <workItem from="1548213992534" duration="5681000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548003293356</created>
@@ -235,13 +243,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40862000" />
+    <option name="totallyTimeSpent" value="42634000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10642782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21581197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -433,6 +441,13 @@
           <folding>
             <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/adameva.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
         </state>
       </provider>
     </entry>
