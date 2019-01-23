@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7700d74d-b5e4-4e9f-9599-bbcfcc344df4" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/Lập trình hướng đối tượng/adameva.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="170">
+              <caret line="10" column="7" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -48,17 +49,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="17">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Lamp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cấu trúc điều kiện/good-fast-cheap.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="43" column="37" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng (2)/adameva.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="425">
+              <caret line="25" column="5" selection-start-line="9" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -96,8 +118,9 @@
         <option value="$PROJECT_DIR$/Lập trình hướng đối tượng/DriveCar.html" />
         <option value="$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Battery.html" />
         <option value="$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/index.html" />
-        <option value="$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/script.js" />
         <option value="$PROJECT_DIR$/Lập trình hướng đối tượng/adameva.html" />
+        <option value="$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/script.js" />
+        <option value="$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Lamp.html" />
       </list>
     </option>
   </component>
@@ -125,18 +148,18 @@
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="Lập trình hướng đối tượng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="Lập trình hướng đối tượng" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="Cấu trúc điều kiện" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
               <item name="Lập trình hướng đối tượng (2)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+              <item name="Lập trình hướng đối tượng (2)" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
@@ -156,11 +179,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng (2)\Pikachu" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng (2)" />
       <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng (2)\img" />
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng (2)\Pikachu" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -206,7 +231,7 @@
       <workItem from="1548139237591" duration="10525000" />
       <workItem from="1548213859931" duration="86000" />
       <workItem from="1548213992534" duration="5681000" />
-      <workItem from="1548225491855" duration="444000" />
+      <workItem from="1548225491855" duration="3836000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548003293356</created>
@@ -240,10 +265,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43078000" />
+    <option name="totallyTimeSpent" value="46470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21581197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -406,6 +432,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Battery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/DriveCar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -416,34 +449,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Battery.html">
+    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="32" />
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/index.html">
+    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng (2)/adameva.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="425">
+          <caret line="25" column="5" selection-start-line="9" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cấu trúc điều kiện/Ball.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cấu trúc điều kiện/Gamepuzzle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Pikachu/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="17">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng (2)/adameva.html">
+    <entry file="file://$PROJECT_DIR$/Cấu trúc điều kiện/good-fast-cheap.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        <state relative-caret-position="527">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng (2)/Lamp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>

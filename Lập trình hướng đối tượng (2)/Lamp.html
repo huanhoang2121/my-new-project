@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lamp</title>
+</head>
+<body>
+<div align="center">
+    <img name="lamp" src="img/lampoff.png" height="450" width="279"/><br><br>
+    <input type="button" id="on" value="On" onclick="btn.switchOn();">
+    <input type="button" id="off" value="Off" onclick="btn.switchOff();">
+</div>
+
+</body>
+<script !src="">
+    class ElectricLamp{
+        constructor(_status){
+            this.status = _status;
+        }
+        turnOff(){
+            this.status == false;
+            document.lamp.src = "img/lampoff.png";
+            console.log("LEDTurnOff!");
+        }
+        turnOn(){
+            this.status == true;
+            document.lamp.src = "img/lampon.png";
+            console.log("LEDTurnOn!");
+        }
+    }
+    class SwitchButton{
+        constructor(_status, _lamp){
+            this.status = _status;
+            this.lamp = _lamp;
+        }
+        switchOff(){
+            this.status == false;
+            console.log("TurnOff!");
+            this.lamp.turnOff();
+        }
+        switchOn(){
+            this.status == true;
+            console.log("TurnOn!");
+            this.lamp.turnOn();
+        }
+    }
+    var lamp = new ElectricLamp(false);
+    var btn = new SwitchButton(false,lamp);
+
+</script>
+</html>
