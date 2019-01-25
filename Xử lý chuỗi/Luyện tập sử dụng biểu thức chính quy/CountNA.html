@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+<script !src="">
+    function is_NA(str) {
+        date = /^(o|i|e|u|a)$/i;
+        let na = 0;
+        let pa = 0;
+        for (let i = 0; i < str.length; i++) {
+            if (date.test(str[i])) {
+                na += 1;
+            }
+            else pa += 1;
+        }
+        console.log(na);
+        console.log(pa);
+    }
+
+    let st = "huanhoang";
+    is_NA(st);
+    st = "C01A19G";
+    is_NA(st);
+</script>
+</html>
