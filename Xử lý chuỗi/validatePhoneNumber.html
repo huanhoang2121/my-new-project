@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+<script !src="">
+    function is_PhoneNumber(str) {
+        phoneNum = /^[(0-9)-]{5}[(0-9)]{12}$/;
+        if (phoneNum.test(str)) {
+            return true;
+        }
+        return false;
+    }
+
+    let pN = "(84)-(0978489648)";
+    console.log(is_PhoneNumber(pN));
+    pN = "(a8)-(22222222)";
+    console.log(is_PhoneNumber(pN));
+</script>
+</html>

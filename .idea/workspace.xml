@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7700d74d-b5e4-4e9f-9599-bbcfcc344df4" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/Xử lý chuỗi/validatePhoneNumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Xử lý chuỗi/validateClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/Xử lý chuỗi/validateClass.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,16 +39,25 @@
         <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateEmail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+              <caret line="11" column="71" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateClass.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateClass.html">
+        <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validatePhoneNumber.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="357">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -115,6 +126,7 @@
         <option value="$PROJECT_DIR$/Xử lý chuỗi/validateAcount.html" />
         <option value="$PROJECT_DIR$/Xử lý chuỗi/validateEmail.html" />
         <option value="$PROJECT_DIR$/Xử lý chuỗi/validateClass.html" />
+        <option value="$PROJECT_DIR$/Xử lý chuỗi/validatePhoneNumber.html" />
       </list>
     </option>
   </component>
@@ -181,15 +193,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Phone.html">
+  <component name="RunManager" selected="JavaScript Debug.validatePhoneNumber.html">
     <configuration name="Phone.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my-new-project/Lập trình hướng đối tượng/Phone.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Rectangle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my-new-project/Lập trình hướng đối tượng/Rectangle.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="validatePhoneNumber.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my-new-project/Xử lý chuỗi/validatePhoneNumber.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.validatePhoneNumber.html" />
         <item itemvalue="JavaScript Debug.Phone.html" />
         <item itemvalue="JavaScript Debug.Rectangle.html" />
       </list>
@@ -218,7 +234,7 @@
       <workItem from="1548297513655" duration="7511000" />
       <workItem from="1548312824345" duration="9463000" />
       <workItem from="1548325119326" duration="68000" />
-      <workItem from="1548385994122" duration="3542000" />
+      <workItem from="1548385994122" duration="5390000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548003293356</created>
@@ -252,13 +268,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70390000" />
+    <option name="totallyTimeSpent" value="72238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15598291" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15598291" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -598,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateEmail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateAcount.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -612,10 +621,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateEmail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateClass.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="187">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validatePhoneNumber.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
