@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7700d74d-b5e4-4e9f-9599-bbcfcc344df4" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng (2)/tom&amp;jerry.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Xử lý chuỗi/SearchChar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Đề tài BP/Product.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Đề tài BP/demoxml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Đề tài BP/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Đề tài BP/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xử lý chuỗi/USCode.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/SearchChar.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/USCode.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -81,10 +84,11 @@
         <option value="$PROJECT_DIR$/Hàm/productManager.html" />
         <option value="$PROJECT_DIR$/Đề tài BP/product.html" />
         <option value="$PROJECT_DIR$/Xử lý chuỗi/SearchChar.html" />
+        <option value="$PROJECT_DIR$/Xử lý chuỗi/USCode.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -105,6 +109,11 @@
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+              <item name="Xử lý chuỗi" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -117,16 +126,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP\images" />
-      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP" />
-      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng (2)\img" />
-      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng (2)\Pikachu" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP" />
       <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng (2)" />
       <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Xử lý chuỗi" />
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP\images" />
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP" />
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng (2)\img" />
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng (2)\Pikachu" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -178,7 +188,7 @@
       <workItem from="1548297513655" duration="7511000" />
       <workItem from="1548312824345" duration="9463000" />
       <workItem from="1548325119326" duration="68000" />
-      <workItem from="1548385994122" duration="399000" />
+      <workItem from="1548385994122" duration="678000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548003293356</created>
@@ -212,10 +222,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67247000" />
+    <option name="totallyTimeSpent" value="67526000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15598291" />
@@ -528,6 +538,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/USCode.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
