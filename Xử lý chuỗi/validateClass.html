@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+<script !src="">
+    function is_Class(str) {
+        classy = /^(C|A|P)+[a-z]$/;
+        if (classy.test(str)) {
+            return true;
+        }
+        return false;
+    }
+
+    let cl = "_abc123";
+    console.log(is_Class(cl));
+    cl = "Aa";
+    console.log(is_Class(cl));
+    cl = "123abc_";
+    console.log(is_Class(cl));
+</script>
+</html>

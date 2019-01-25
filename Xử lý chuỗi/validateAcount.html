@@ -8,8 +8,8 @@
 
 </body>
 <script !src="">
-    function is_Email(str) {
-        const account = /^[_a-z0-9]{6,}$/;
+    function is_Account(str) {
+        account = /^[_a-z0-9]{6,}$/;
         if (account.test(str)) {
             return true;
         }
@@ -17,10 +17,10 @@
     }
 
     let ac = "_abc123";
-    console.log(is_Email(ac));
+    console.log(is_Account(ac));
     ac = "12345";
-    console.log(is_Email(ac));
+    console.log(is_Account(ac));
     ac = "123abc_";
-    console.log(is_Email(ac));
+    console.log(is_Account(ac));
 </script>
 </html>
