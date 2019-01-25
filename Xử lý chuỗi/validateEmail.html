@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+<script !src="">
+    function is_Email(str) {
+        const email = /^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)$/;
+        if (email.test(str)) {
+            return true;
+        }
+        return false;
+    }
+
+    let em = "a@gmail.com";
+    console.log(is_Email(em));
+    em = "@gmail.com";
+    console.log(is_Email(em));
+    em = "avad1as@gmail.com";
+    console.log(is_Email(em));
+</script>
+</html>
