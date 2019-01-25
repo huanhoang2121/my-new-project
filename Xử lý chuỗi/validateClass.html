@@ -9,7 +9,7 @@
 </body>
 <script !src="">
     function is_Class(str) {
-        classy = /^(C|A|P)+[a-z]$/;
+        classy = /^(C|A|P)[0-9]{4,}(G|H|I|K|L|M)$/;
         if (classy.test(str)) {
             return true;
         }
@@ -18,7 +18,7 @@
 
     let cl = "_abc123";
     console.log(is_Class(cl));
-    cl = "Aa";
+    cl = "C0119G";
     console.log(is_Class(cl));
     cl = "123abc_";
     console.log(is_Class(cl));

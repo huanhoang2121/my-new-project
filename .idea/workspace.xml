@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7700d74d-b5e4-4e9f-9599-bbcfcc344df4" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Xử lý chuỗi/validateClass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xử lý chuỗi/validateAcount.html" beforeDir="false" afterPath="$PROJECT_DIR$/Xử lý chuỗi/validateAcount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xử lý chuỗi/validateEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/Xử lý chuỗi/validateEmail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xử lý chuỗi/validateClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/Xử lý chuỗi/validateClass.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,20 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateEmail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+              <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateClass.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="340">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -58,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateAcount.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -115,9 +112,9 @@
         <option value="$PROJECT_DIR$/Đề tài BP/product.html" />
         <option value="$PROJECT_DIR$/Xử lý chuỗi/SearchChar.html" />
         <option value="$PROJECT_DIR$/Xử lý chuỗi/USCode.html" />
-        <option value="$PROJECT_DIR$/Xử lý chuỗi/validateClass.html" />
         <option value="$PROJECT_DIR$/Xử lý chuỗi/validateAcount.html" />
         <option value="$PROJECT_DIR$/Xử lý chuỗi/validateEmail.html" />
+        <option value="$PROJECT_DIR$/Xử lý chuỗi/validateClass.html" />
       </list>
     </option>
   </component>
@@ -221,7 +218,7 @@
       <workItem from="1548297513655" duration="7511000" />
       <workItem from="1548312824345" duration="9463000" />
       <workItem from="1548325119326" duration="68000" />
-      <workItem from="1548385994122" duration="3126000" />
+      <workItem from="1548385994122" duration="3542000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548003293356</created>
@@ -255,7 +252,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69974000" />
+    <option name="totallyTimeSpent" value="70390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -601,24 +598,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateClass.html">
+    <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateEmail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateAcount.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateEmail.html">
+    <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateClass.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
