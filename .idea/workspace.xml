@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7700d74d-b5e4-4e9f-9599-bbcfcc344df4" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/MinMax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Đề tài BP/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/Count.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/MinMax.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+            <state relative-caret-position="408">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="24" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/Count.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -89,6 +96,7 @@
         <option value="$PROJECT_DIR$/Xử lý chuỗi/Luyện tập sử dụng biểu thức chính quy/Pass.html" />
         <option value="$PROJECT_DIR$/Đề tài BP/demo.html" />
         <option value="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/MinMax.html" />
+        <option value="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/Count.html" />
       </list>
     </option>
   </component>
@@ -112,6 +120,11 @@
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+              <item name="Giải quyết vấn đề và thuật toán" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,7 +209,7 @@
       <workItem from="1548398098261" duration="25000" />
       <workItem from="1548398869648" duration="2796000" />
       <workItem from="1548407348529" duration="1892000" />
-      <workItem from="1548645663736" duration="136000" />
+      <workItem from="1548645663736" duration="727000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548003293356</created>
@@ -230,7 +243,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77087000" />
+    <option name="totallyTimeSpent" value="77678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -641,8 +654,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/MinMax.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        <state relative-caret-position="408">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/Count.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="48" />
         </state>
       </provider>
     </entry>
