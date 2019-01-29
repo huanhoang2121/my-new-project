@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7700d74d-b5e4-4e9f-9599-bbcfcc344df4" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/PhoneNumber.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/bouncingball.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,28 +17,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Đề tài BP/index.html">
+        <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/PhoneNumber.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="60" column="41" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="170">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/PhoneNumber.html">
+        <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/bouncingball.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validatePhoneNumber.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="254">
+              <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -110,6 +101,7 @@
         <option value="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/Count.html" />
         <option value="$PROJECT_DIR$/Đề tài BP/index.html" />
         <option value="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/PhoneNumber.html" />
+        <option value="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/bouncingball.html" />
       </list>
     </option>
   </component>
@@ -141,7 +133,7 @@
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="Xử lý chuỗi" type="462c0819:PsiDirectoryNode" />
+              <item name="Đề tài BP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,17 +149,17 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP" />
-      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng (2)" />
-      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Giải quyết vấn đề và thuật toán" />
       <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP\Resources" />
       <recent name="G:\Document\CodeGym\GitHub\my-new-project\Xử lý chuỗi\Luyện tập sử dụng biểu thức chính quy" />
       <recent name="G:\Document\CodeGym\GitHub\my-new-project\Xử lý chuỗi" />
       <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP" />
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng (2)" />
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,7 +222,7 @@
       <workItem from="1548645663736" duration="5755000" />
       <workItem from="1548657723715" duration="2000" />
       <workItem from="1548657843760" duration="9171000" />
-      <workItem from="1548723990813" duration="1815000" />
+      <workItem from="1548723990813" duration="3059000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548003293356</created>
@@ -264,7 +256,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93694000" />
+    <option name="totallyTimeSpent" value="94938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -358,9 +350,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/img/car1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/FunnyCircle.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
@@ -648,8 +637,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/PhoneNumber.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/bouncingball.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
         </state>
       </provider>
     </entry>
