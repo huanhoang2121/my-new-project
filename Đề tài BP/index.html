@@ -1,177 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Quản Lý Sản Phẩm</title>
-    <meta charset="utf-8">
-    <!-- Main CSS-->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <!-- Font-icon css-->
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8" />
+    <title>Game Vui - Đơn giản</title>
+    <style>
+        * { padding: 0; margin: 0; }
+        canvas { background: #eee; display: block; margin: 0 auto; }
+    </style>
 </head>
-<body class="app sidebar-mini rtl">
-<!-- Navbar-->
-<header class="app-header"><a class="app-header__logo" href="index.html">Web Admin</a>
-    <!-- Sidebar toggle button-->
-    <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
-    <!-- Navbar Right Menu-->
-    <ul class="app-nav">
-        <li class="app-search">
-            <input class="app-search__input" type="search" placeholder="Search">
-            <button class="app-search__button"><i class="fa fa-search"></i></button>
-        </li>
-        <!--Notification Menu-->
-        <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Show notifications"><i class="fa fa-bell-o fa-lg"></i></a>
-            <ul class="app-notification dropdown-menu dropdown-menu-right">
-                <li class="app-notification__title">You have 4 new notifications.</li>
-                <div class="app-notification__content">
-                    <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-envelope fa-stack-1x fa-inverse"></i></span></span>
-                        <div>
-                            <p class="app-notification__message">Lisa sent you a mail</p>
-                            <p class="app-notification__meta">2 min ago</p>
-                        </div></a></li>
-                    <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-danger"></i><i class="fa fa-hdd-o fa-stack-1x fa-inverse"></i></span></span>
-                        <div>
-                            <p class="app-notification__message">Mail server not working</p>
-                            <p class="app-notification__meta">5 min ago</p>
-                        </div></a></li>
-                    <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-success"></i><i class="fa fa-money fa-stack-1x fa-inverse"></i></span></span>
-                        <div>
-                            <p class="app-notification__message">Transaction complete</p>
-                            <p class="app-notification__meta">2 days ago</p>
-                        </div></a></li>
-                    <div class="app-notification__content">
-                        <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-envelope fa-stack-1x fa-inverse"></i></span></span>
-                            <div>
-                                <p class="app-notification__message">Lisa sent you a mail</p>
-                                <p class="app-notification__meta">2 min ago</p>
-                            </div></a></li>
-                        <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-danger"></i><i class="fa fa-hdd-o fa-stack-1x fa-inverse"></i></span></span>
-                            <div>
-                                <p class="app-notification__message">Mail server not working</p>
-                                <p class="app-notification__meta">5 min ago</p>
-                            </div></a></li>
-                        <li><a class="app-notification__item" href="javascript:;"><span class="app-notification__icon"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x text-success"></i><i class="fa fa-money fa-stack-1x fa-inverse"></i></span></span>
-                            <div>
-                                <p class="app-notification__message">Transaction complete</p>
-                                <p class="app-notification__meta">2 days ago</p>
-                            </div></a></li>
-                    </div>
-                </div>
-                <li class="app-notification__footer"><a href="#">See all notifications.</a></li>
-            </ul>
-        </li>
-        <!-- User Menu-->
-        <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
-            <ul class="dropdown-menu settings-menu dropdown-menu-right">
-                <li><a class="dropdown-item" href="#"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
-                <li><a class="dropdown-item" href="#"><i class="fa fa-user fa-lg"></i> Profile</a></li>
-                <li><a class="dropdown-item" href="#"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
-            </ul>
-        </li>
-    </ul>
-</header>
-<!-- Sidebar menu-->
-<div class="app-sidebar__overlay" data-toggle="sidebar"></div>
-<aside class="app-sidebar">
-    <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/48.jpg" alt="User Image">
-        <div>
-            <p class="app-sidebar__user-name">Huấn Hoàng</p>
-            <p class="app-sidebar__user-designation">Backend Developer</p>
-        </div>
-    </div>
-    <ul class="app-menu">
-        <li><a class="app-menu__item" href="index.html"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Quản lý sản phẩm</span></a></li>
-        <li><a class="app-menu__item" href="index.html"><i class="app-menu__icon fa fa-caret-square-o-down"></i><span class="app-menu__label">Thêm sản phẩm</span></a></li>
-    </ul>
-</aside>
-<main class="app-content">
-    <div class="app-title">
-        <div>
-            <h1><i class="fa fa-th-list"></i> Quản Lý Sản Phẩm</h1>
-            <p>Trang quản lý sản phẩm, chỉ dành cho Admin của trang.</p>
-        </div>
-        <ul class="app-breadcrumb breadcrumb side">
-            <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
-            <li class="breadcrumb-item">Home</li>
-            <li class="breadcrumb-item active"><a href="#">Product Manager</a></li>
-        </ul>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="tile">
-                <div class="tile-body">
-                        <a id="demo"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</main>
+<body>
 
+<canvas id="myCanvas" width="800" height="400"></canvas>
 
 <script>
-    const xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            myFunction(this);
-        }
-    };
-    xhttp.open("GET", "Product.xml", true);
-    xhttp.send();
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    var ballRadius = 10;
+    var x = canvas.width/2;
+    var y = canvas.height-15;
+    var dx = 3;
+    var dy = -3;
+    var paddleHeight = 10;
+    var paddleWidth = 75;
+    var paddleX = (canvas.width - paddleWidth)/2;
+    var rightPressed = false;
+    var leftPressed = false;
+    var brickRowCount = 9;
+    var brickColumnCount = 3;
+    var brickWidth = 75;
+    var brickHeight = 20;
+    var brickPadding = 10;
+    var brickOffsetTop = 30;
+    var brickOffsetLeft = 30;
+    var score = 0;
+    var lives = 3;
+    var movePaddle = 7;
+    var coinSound = new sound("Resources/coin.wav");
+    var knockSound = new sound("Resources/knock.mp3");
+    var backSound = new sound("Resources/backgroundsound1.mp3");
+    backSound.play();
 
-    function myFunction(xml) {
-        let name, price, description, xmlDoc, txt;
-        xmlDoc = xml.responseXML;
-        txt = "<a href='index.html'>Thêm</a>" +
-            "<table class='table table-hover table-bordered' id='sampleTable'>" +
-            " <thead>" +
-            "    <tr>" +
-            "        <th>STT</th>" +
-            "        <th>Name</th>" +
-            "        <th>Price</th>" +
-            "        <th>Description</th>" +
-            "        <th>Action</th>" +
-            "    </tr>" +
-            "</thead>" +
-            "<tbody>";
-        name = xmlDoc.getElementsByTagName('name');
-        price = xmlDoc.getElementsByTagName('price');
-        description = xmlDoc.getElementsByTagName('description');
-        for (let i = 0 ; i <name.length; i++) {
-            txt += "<tr>";
-            txt += "<td>" + (i+1) + "</td>";
-            txt += "<td>" + name[i].childNodes[0].nodeValue + "</td>";
-            txt += "<td>" + price[i].childNodes[0].nodeValue + "</td>";
-            txt += "<td>" + description[i].childNodes[0].nodeValue + "</td>";
-            txt += "<td>" + "<a href='index.html'>Sửa </a>/<a href='index.html'> Xóa</a>" + "</td>";
-            txt += "</tr>";
+    var bricks = [];
+    for(let c = 0; c < brickColumnCount; c++) {
+        bricks[c] = [];
+        for(let r = 0; r < brickRowCount; r++) {
+            bricks[c][r] = { x: 0, y: 0, status: 1 };
         }
-        txt += "</tbody>";
-        document.getElementById("demo").innerHTML = txt;
     }
+
+    document.addEventListener("keydown", keyDownHandler, false);
+    document.addEventListener("keyup", keyUpHandler, false);
+    // document.addEventListener("mousemove", mouseMoveHandler, false);
+
+    function sound(src) {
+        this.sound = document.createElement("audio");
+        this.sound.src = src;
+        this.sound.setAttribute("preload", "auto");
+        this.sound.setAttribute("controls", "none");
+        this.sound.style.display = "none";
+        document.body.appendChild(this.sound);
+        this.play = function(){
+            this.sound.play();
+        }
+        this.stop = function(){
+            this.sound.pause();
+        }
+    }
+
+    function keyDownHandler(e) {
+        if(e.key == "Right" || e.key == "ArrowRight") {
+            rightPressed = true;
+        }
+        else if(e.key == "Left" || e.key == "ArrowLeft") {
+            leftPressed = true;
+        }
+    }
+
+    function keyUpHandler(e) {
+        if(e.key == "Right" || e.key == "ArrowRight") {
+            rightPressed = false;
+        }
+        else if(e.key == "Left" || e.key == "ArrowLeft") {
+            leftPressed = false;
+        }
+    }
+
+    // function mouseMoveHandler(e) {
+    //     var relativeX = e.clientX - canvas.offsetLeft;
+    //     if(relativeX > 0 && relativeX < canvas.width) {
+    //         paddleX = relativeX - paddleWidth/2;
+    //     }
+    // }
+
+    //Sự kiện, tính điểm
+    function collisionDetection() {
+        for(var c = 0; c < brickColumnCount; c++) {
+            for(var r = 0; r < brickRowCount; r++) {
+                var b = bricks[c][r];
+                if(b.status == 1) {
+                    if(x > b.x && x < b.x + brickWidth && y > b.y && y < b.y + brickHeight) {
+                        dy = -dy;
+                        b.status = 0;
+                        coinSound.play();
+                        score++;
+                        if(score == brickRowCount * brickColumnCount) {
+                            alert("Bạn đã thắng! Nhấn Ok để chơi lại");
+                            document.location.reload();
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //Vẽ bóng
+    function drawBall() {
+        ctx.beginPath();
+        ctx.arc(x, y, ballRadius, 0, Math.PI*2);
+        ctx.fillStyle = "#30dd7a";
+        ctx.fill();
+        ctx.closePath();
+    }
+    //Vẽ thanh chuyền
+    function drawPaddle() {
+        ctx.beginPath();
+        ctx.rect(paddleX, canvas.height-paddleHeight, paddleWidth, paddleHeight);
+        ctx.fillStyle = "#dddd2f";
+        ctx.fill();
+        ctx.closePath();
+    }
+    //Vẽ gạch
+    function drawBricks() {
+        for(var c=0; c<brickColumnCount; c++) {
+            for(var r=0; r<brickRowCount; r++) {
+                if(bricks[c][r].status == 1) {
+                    var brickX = (r * (brickWidth+brickPadding)) + brickOffsetLeft;
+                    var brickY = (c * (brickHeight+brickPadding)) + brickOffsetTop;
+                    bricks[c][r].x = brickX;
+                    bricks[c][r].y = brickY;
+                    ctx.beginPath();
+                    ctx.rect(brickX, brickY, brickWidth, brickHeight);
+                    ctx.fillStyle = "#dd00cc";
+                    ctx.fill();
+                    ctx.closePath();
+                }
+            }
+        }
+    }
+    //In điểm
+    function drawScore() {
+        ctx.font = "16px Arial";
+        ctx.fillStyle = "#dd0006";
+        ctx.fillText("Điểm: "+score, 8, 20);
+    }
+    //In mạng
+    function drawLives() {
+        ctx.font = "16px Arial";
+        ctx.fillStyle = "#0095DD";
+        ctx.fillText("Lượt: "+lives, canvas.width-65, 20);
+    }
+
+    function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        drawBricks();
+        drawBall();
+        drawPaddle();
+        drawScore();
+        drawLives();
+        collisionDetection();
+
+        if(x + dx > canvas.width - ballRadius || x + dx < ballRadius) {
+            dx = -dx;
+        }
+        if(y + dy < ballRadius) {
+            dy = -dy;
+        }
+        else if(y + dy > canvas.height - ballRadius) {
+            if(x > paddleX && x < paddleX + paddleWidth) {
+                dy = -dy;
+            }
+            else {
+                lives--;
+                if(!lives) {
+                    alert("Bạn đã thua! Nhấn Ok để chơi lại");
+                    x = canvas.width/2;
+                    y = canvas.height-15;
+                    paddleX = (canvas.width - paddleWidth)/2;
+                    document.location.reload();
+                }
+                else {
+                    knockSound.play();
+                    alert("Chơi tiếp!");
+                    x = canvas.width/2;
+                    y = canvas.height-15;
+                    paddleX = (canvas.width - paddleWidth)/2;
+                }
+            }
+        }
+        if(rightPressed && paddleX < canvas.width - paddleWidth) {
+            paddleX += movePaddle;
+        }
+        else if(leftPressed && paddleX > 0) {
+            paddleX -= movePaddle;
+        }
+        x += dx;
+        y += dy;
+        requestAnimationFrame(draw);
+    }
+    draw();
 </script>
 
-<!-- Essential javascripts for application to work-->
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
-<!-- The javascript plugin to display page loading on top-->
-<script src="js/plugins/pace.min.js"></script>
-<!-- Page specific javascripts-->
-<!-- Data table plugin-->
-<script type="text/javascript" src="js/plugins/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="js/plugins/dataTables.bootstrap.min.js"></script>
-<script type="text/javascript">$('#sampleTable').DataTable();</script>
-<!-- Google analytics script-->
-<script type="text/javascript">
-    if(document.location.hostname == 'pratikborsadiya.in') {
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-72504830-1', 'auto');
-        ga('send', 'pageview');
-    }
-</script>
 </body>
 </html>

@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7700d74d-b5e4-4e9f-9599-bbcfcc344df4" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/Count.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/huanh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Đề tài BP/Resources/backgroundsound1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Đề tài BP/Resources/coin.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Đề tài BP/Resources/knock.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/Product.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/demoxml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Đề tài BP/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/bootstrap-datepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/bootstrap-notify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/jquery-ui.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/jquery.vmap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/jquery.vmap.sampledata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/jquery.vmap.world.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/pace.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/sweetalert.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Đề tài BP/product.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,16 +47,25 @@
         <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/MinMax.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="24" selection-end-column="9" />
+              <caret line="24" column="9" selection-start-line="20" selection-start-column="7" selection-end-line="24" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/Count.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/Count.html">
+        <entry file="file://$PROJECT_DIR$/Đề tài BP/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="48" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="48" />
+            <state relative-caret-position="561">
+              <caret line="60" column="41" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -51,9 +88,11 @@
       <find>productsid</find>
       <find>products</find>
       <find>”</find>
+      <find>speedPaddle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -81,7 +120,6 @@
         <option value="$PROJECT_DIR$/Đề tài BP/js/mobile.js" />
         <option value="$PROJECT_DIR$/Đề tài BP/Product.xml" />
         <option value="$PROJECT_DIR$/Đề tài BP/demoxml.html" />
-        <option value="$PROJECT_DIR$/Đề tài BP/index.html" />
         <option value="$PROJECT_DIR$/Hàm/productManager.html" />
         <option value="$PROJECT_DIR$/Đề tài BP/product.html" />
         <option value="$PROJECT_DIR$/Xử lý chuỗi/Luyện tập sử dụng biểu thức chính quy/CountChar.html" />
@@ -97,14 +135,14 @@
         <option value="$PROJECT_DIR$/Đề tài BP/demo.html" />
         <option value="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/MinMax.html" />
         <option value="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/Count.html" />
+        <option value="$PROJECT_DIR$/Đề tài BP/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -126,6 +164,17 @@
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
               <item name="Giải quyết vấn đề và thuật toán" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+              <item name="Đề tài BP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+              <item name="Đề tài BP" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -137,19 +186,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Xử lý chuỗi\Luyện tập sử dụng biểu thức chính quy" />
-      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Xử lý chuỗi" />
-      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP\images" />
-      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP" />
-      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng (2)\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP" />
       <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng (2)" />
       <recent name="G:\Document\CodeGym\GitHub\my-new-project\Lập trình hướng đối tượng\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP\Resources" />
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Xử lý chuỗi\Luyện tập sử dụng biểu thức chính quy" />
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Xử lý chuỗi" />
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP\images" />
+      <recent name="G:\Document\CodeGym\GitHub\my-new-project\Đề tài BP" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,7 +259,9 @@
       <workItem from="1548398098261" duration="25000" />
       <workItem from="1548398869648" duration="2796000" />
       <workItem from="1548407348529" duration="1892000" />
-      <workItem from="1548645663736" duration="727000" />
+      <workItem from="1548645663736" duration="5755000" />
+      <workItem from="1548657723715" duration="2000" />
+      <workItem from="1548657843760" duration="9171000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548003293356</created>
@@ -243,13 +295,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77678000" />
+    <option name="totallyTimeSpent" value="91879000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07692308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15595363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -262,7 +314,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3261105" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -499,23 +551,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Đề tài BP/table-data-table.html" />
-    <entry file="file://$PROJECT_DIR$/Đề tài BP/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Đề tài BP/css/main.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Đề tài BP/demoxml.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Đề tài BP/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/Đề tài BP/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/Đề tài BP/demoxml.html" />
     <entry file="file://$PROJECT_DIR$/Hàm/product.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -531,38 +569,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Đề tài BP/Product.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Đề tài BP/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="143" column="33" selection-start-line="143" selection-start-column="33" selection-end-line="143" selection-end-column="33" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#9;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Đề tài BP/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-          <folding>
-            <element signature="n#li#2;n#ul#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Đề tài BP/Product.xml" />
+    <entry file="file://$PROJECT_DIR$/Đề tài BP/product.html" />
     <entry file="file://$PROJECT_DIR$/Hàm/productManager.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="829">
@@ -603,13 +611,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Đề tài BP/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="60" column="23" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Đề tài BP/demo.html" />
     <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/Luyện tập sử dụng biểu thức chính quy/Date.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -652,10 +654,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9306" column="4" selection-start-line="9306" selection-start-column="4" selection-end-line="9306" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/MinMax.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="24" selection-end-column="9" />
+          <caret line="24" column="9" selection-start-line="20" selection-start-column="7" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -663,6 +672,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="48" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Đề tài BP/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="60" column="41" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="23" />
         </state>
       </provider>
     </entry>
