@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7700d74d-b5e4-4e9f-9599-bbcfcc344df4" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/huanh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Đề tài BP/Resources/backgroundsound1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Đề tài BP/Resources/coin.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Đề tài BP/Resources/knock.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/PhoneNumber.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/Product.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/demoxml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Đề tài BP/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/bootstrap-datepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/bootstrap-notify.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/fullcalendar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/jquery-ui.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/jquery.vmap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/jquery.vmap.sampledata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/jquery.vmap.world.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/pace.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/select2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/plugins/sweetalert.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Đề tài BP/product.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,28 +17,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/MinMax.html">
+        <entry file="file://$PROJECT_DIR$/Đề tài BP/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="9" selection-start-line="20" selection-start-column="7" selection-end-line="24" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/Count.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="48" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="48" />
+            <state relative-caret-position="561">
+              <caret line="60" column="41" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Đề tài BP/index.html">
+        <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/PhoneNumber.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="60" column="41" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validatePhoneNumber.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -136,10 +109,11 @@
         <option value="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/MinMax.html" />
         <option value="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/Count.html" />
         <option value="$PROJECT_DIR$/Đề tài BP/index.html" />
+        <option value="$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/PhoneNumber.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -167,13 +141,7 @@
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="Đề tài BP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="Đề tài BP" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Xử lý chuỗi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,6 +230,7 @@
       <workItem from="1548645663736" duration="5755000" />
       <workItem from="1548657723715" duration="2000" />
       <workItem from="1548657843760" duration="9171000" />
+      <workItem from="1548723990813" duration="1815000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548003293356</created>
@@ -295,13 +264,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91879000" />
+    <option name="totallyTimeSpent" value="93694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15595363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31623933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -389,40 +358,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Date.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Rectangle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Circel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/Temperature.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/img/car2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lập trình hướng đối tượng/img/car1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -457,13 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cấu trúc điều kiện/Gamepuzzle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -640,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validatePhoneNumber.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validateAcount.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -670,8 +591,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/Count.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="48" />
+        <state relative-caret-position="442">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="8" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cấu trúc điều kiện/Gamepuzzle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="63" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mảng/arrayElement.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mảng/Caro2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mảng/carosimple.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mảng/isPrime.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mảng/maxValue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -679,6 +636,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="60" column="41" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Xử lý chuỗi/validatePhoneNumber.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Giải quyết vấn đề và thuật toán/PhoneNumber.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>

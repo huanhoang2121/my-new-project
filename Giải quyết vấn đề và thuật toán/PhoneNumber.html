@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script !src="">
+
+    var nums = ["091","098","0711","13","22","01","0978489648"];
+    phoneNum = /^[00-9]{2}[0-9]{8}$/;
+    for(let i = 0; i < nums.length; ++i){
+        if(phoneNum.test(nums[i])){
+            if (nums[i].substr(0,2) == "09") {
+                alert(nums[i] + " : là số Vietel");
+            }
+        }
+    }
+</script>
+</body>
+</html>
